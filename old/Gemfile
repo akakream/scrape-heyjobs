@@ -1,0 +1,13 @@
+# frozen_string_literal: true
+
+source "https://rubygems.org"
+
+ruby File.read(".ruby-version").strip
+
+gem 'nokogiri', '~> 1.15', '>= 1.15.2'
+gem "httparty", "~> 0.21.0"
+gem 'rubocop', group: :development
+gem 'solargraph', group: :development
+gem "rspec", "~> 3.12"
+
+gem "rails", "~> 7.0"

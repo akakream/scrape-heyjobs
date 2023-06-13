@@ -9,7 +9,7 @@ class PageGetter
   end
 
   def self.get(uri)
-    URI.open(uri)
+    URI.parse(uri)
   end
 
   def self.parse(html)
